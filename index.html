@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Delphos: Un Motor de Segundas Oportunidades</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-stone-800">
+
+    <!-- Hero Section -->
+    <header class="bg-stone-100">
+        <div class="max-w-7xl mx-auto py-20 px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-black text-stone-900 leading-tight">
+                El Motor de las <span class="text-cyan-600">Segundas Oportunidades</span>
+            </h1>
+            <p class="mt-6 text-lg md:text-xl text-stone-600 max-w-3xl mx-auto">
+                El Proyecto Delphos propone una solución revolucionaria: transformar la construcción y mantenimiento de nuestros parques en una poderosa herramienta de reinserción social, generando un triple beneficio para Costa Rica.
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <!-- Beneficios Section -->
+        <section id="beneficios" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="section-title">Una Inversión, Triple Beneficio</h2>
+                    <p class="section-subtitle mt-4">
+                        Este modelo no es un gasto, es una inversión estratégica que fortalece el tejido social, optimiza los recursos del estado y dignifica la vida de las personas.
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Card 1 -->
+                    <div class="bg-stone-50 p-8 rounded-2xl shadow-sm hover:shadow-lg transition-shadow duration-300 fade-in">
+                        <div class="w-16 h-16 bg-cyan-100 text-cyan-700 rounded-full flex items-center justify-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg></div>
+                        <h3 class="text-xl font-bold text-stone-900">Para los Participantes</h3>
+                        <p class="mt-2 text-stone-600">Ofrece ingresos dignos, capacitación, acceso a crédito y, lo más importante, una ruta para reconstruir la autoestima y reintegrarse a la sociedad.</p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="bg-stone-50 p-8 rounded-2xl shadow-sm hover:shadow-lg transition-shadow duration-300 fade-in">
+                        <div class="w-16 h-16 bg-cyan-100 text-cyan-700 rounded-full flex items-center justify-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg></div>
+                        <h3 class="text-xl font-bold text-stone-900">Para el Estado</h3>
+                        <p class="mt-2 text-stone-600">Reduce el hacinamiento y costo carcelario, disminuye la reincidencia, aumenta la base de contribuyentes y soluciona la problemática de las pensiones alimentarias.</p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="bg-stone-50 p-8 rounded-2xl shadow-sm hover:shadow-lg transition-shadow duration-300 fade-in">
+                        <div class="w-16 h-16 bg-cyan-100 text-cyan-700 rounded-full flex items-center justify-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg></div>
+                        <h3 class="text-xl font-bold text-stone-900">Para la Comunidad</h3>
+                        <p class="mt-2 text-stone-600">Disfruta de parques más seguros y mejor mantenidos, reduce el estigma social y fomenta un entorno de comunidad inclusiva y restaurativa.</p>
+                    </div>
+                    <!-- Card 4 -->
+                     <div class="bg-stone-50 p-8 rounded-2xl shadow-sm hover:shadow-lg transition-shadow duration-300 fade-in">
+                        <div class="w-16 h-16 bg-cyan-100 text-cyan-700 rounded-full flex items-center justify-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg></div>
+                        <h3 class="text-xl font-bold text-stone-900">Para el Proyecto</h3>
+                        <p class="mt-2 text-stone-600">Asegura una mano de obra motivada, reduce costos operativos y construye una poderosa historia de impacto social que atrae a patrocinadores y voluntarios.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brigadas Section -->
+        <section id="brigadas" class="py-20 bg-stone-100">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center mb-12"><h2 class="section-title">Las "Brigadas Delphos de Oportunidad"</h2><p class="section-subtitle mt-4">El programa integra a diferentes poblaciones en un modelo de trabajo formal, estructurado y con acompañamiento, adaptado al marco legal de Costa Rica.</p></div>
+                <div class="flex flex-wrap justify-center gap-3 mb-8">
+                    <button class="tab active" data-target="panel-1">Ex-Privados de Libertad</button>
+                    <button class="tab" data-target="panel-2">Población Penitenciaria</button>
+                    <button class="tab" data-target="panel-3">Deudores de Pensión</button>
+                    <button class="tab" data-target="panel-4">Población Desempleada</button>
+                </div>
+                <div class="max-w-4xl mx-auto">
+                    <div id="panel-1" class="tab-panel p-8 bg-white rounded-2xl shadow-md transition-opacity duration-500"><h3 class="text-2xl font-bold text-cyan-700 mb-4">Población Ex-Privada de Libertad</h3><div class="space-y-4 text-lg text-stone-700"><p>Personas que ya cumplieron su condena y buscan reincorporarse a la sociedad.</p><p><strong>Viabilidad:</strong> <span class="font-bold text-green-600">ALTA.</span> Son ciudadanos libres con plenos derechos laborales. El principal reto es el estigma.</p><p><strong>Modelo Propuesto:</strong> Contratación formal bajo el régimen ordinario (CCSS, INS, aguinaldo). Se establecerá un convenio con la Unidad de Inserción Social del Ministerio de Justicia para crear un "puente laboral" seguro y efectivo.</p></div></div>
+                    <div id="panel-2" class="tab-panel p-8 bg-white rounded-2xl shadow-md transition-opacity duration-500 hidden"><h3 class="text-2xl font-bold text-cyan-700 mb-4">Población Penitenciaria (Régimen Semi-Institucional)</h3><div class="space-y-4 text-lg text-stone-700"><p>Personas en fases avanzadas de su proceso, en regímenes de confianza, que pueden realizar trabajos supervisados.</p><p><strong>Viabilidad:</strong> <span class="font-bold text-yellow-600">MEDIA-ALTA.</span> Requiere condiciones estrictas y supervisión constante.</p><p><strong>Modelo Propuesto:</strong> Convenio con Adaptación Social. Los participantes son seleccionados por el Ministerio y trabajan en brigadas bajo custodia penitenciaria, como parte de su terapia de reinserción y para la reducción de su pena.</p></div></div>
+                    <div id="panel-3" class="tab-panel p-8 bg-white rounded-2xl shadow-md transition-opacity duration-500 hidden"><h3 class="text-2xl font-bold text-cyan-700 mb-4">Deudores de Pensión Alimentaria</h3><div class="space-y-4 text-lg text-stone-700"><p>Personas en la cárcel por apremio corporal, una medida que no resuelve la deuda y genera un alto costo al Estado.</p><p><strong>Viabilidad:</strong> <span class="font-bold text-red-600">COMPLEJA (requiere innovación).</span> La ley actual no contempla el trabajo comunal como sustituto.</p><p><strong>Modelo Propuesto:</strong><br>1. **Inmediato:** Programa de empleo prioritario post-apremio para garantizar el pago futuro.<br>2. **A Futuro:** Impulsar una reforma legal para permitir el trabajo comunitario supervisado como alternativa a la cárcel.</p></div></div>
+                    <div id="panel-4" class="tab-panel p-8 bg-white rounded-2xl shadow-md transition-opacity duration-500 hidden"><h3 class="text-2xl font-bold text-cyan-700 mb-4">Población Desempleada</h3><div class="space-y-4 text-lg text-stone-700"><p>Personas que buscan activamente trabajo y necesitan una oportunidad para reingresar a la economía formal.</p><p><strong>Viabilidad:</strong> <span class="font-bold text-green-600">MUY ALTA.</span> Es la modalidad más directa y sencilla de implementar.</p><p><strong>Modelo Propuesto:</strong> Contratación formal con todas las garantías de ley. Al tener constancia salarial y seguro, los empleados pueden acceder a créditos de vivienda o personales, rompiendo el ciclo de la informalidad y la precariedad.</p></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impacto Section -->
+        <section id="impacto" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center mb-12"><h2 class="section-title">Un Modelo que Transforma Vidas y Finanzas Públicas</h2><p class="section-subtitle mt-4">La iniciativa no solo es socialmente justa, sino económicamente inteligente. Analicemos el caso de los apremios por pensión alimentaria como ejemplo.</p></div>
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="text-lg text-stone-700 space-y-4 fade-in"><h3 class="text-3xl font-bold text-stone-800">El Costo de la Inacción</h3><p>Actualmente, el Estado incurre en un gasto considerable al encarcelar a una persona por deuda de pensión. Este costo incluye manutención, seguridad y administración penitenciaria. Durante este tiempo, la persona no genera ingresos, la deuda no se paga y la familia sigue desprotegida.</p><h3 class="text-3xl font-bold text-stone-800 mt-6">La Solución Delphos</h3><p>Al emplear a estas personas en las "Brigadas Delphos", se invierte la ecuación. El Estado ahorra el costo de encarcelamiento y, a su vez, el participante genera un salario. Este ingreso permite pagar la pensión, mantener a sus hijos y reincorporarse a la economía, contribuyendo a la CCSS.</p><p class="font-bold text-cyan-600">Es transformar un gasto público en una triple ganancia: para la familia, para el Estado y para el individuo.</p></div>
+                    <div class="fade-in"><div class="chart-container"><canvas id="costoChart"></canvas></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Roadmap Section -->
+        <section id="roadmap" class="py-20 bg-stone-100">
+            <div class="max-w-4xl mx-auto px-6">
+                <div class="text-center mb-16"><h2 class="section-title">Hoja de Ruta para el Cambio</h2><p class="section-subtitle mt-4">Proponemos un plan de acción claro y realista para convertir esta visión en un proyecto piloto tangible.</p></div>
+                <div class="space-y-12">
+                    <div class="flex items-start space-x-6 fade-in"><div class="flex-shrink-0 w-12 h-12 bg-cyan-600 text-white rounded-full flex items-center justify-center text-2xl font-bold">1</div><div><h3 class="text-2xl font-bold text-stone-900">Iniciar Conversaciones Formales</h3><p class="mt-2 text-lg text-stone-600">Solicitar reuniones con la Dirección General de Adaptación Social, la Unidad de Inserción Social y la Dirección Nacional de Empleo para presentar el concepto y explorar la creación de convenios de colaboración.</p></div></div>
+                    <div class="flex items-start space-x-6 fade-in"><div class="flex-shrink-0 w-12 h-12 bg-cyan-600 text-white rounded-full flex items-center justify-center text-2xl font-bold">2</div><div><h3 class="text-2xl font-bold text-stone-900">Diseñar un Proyecto Piloto</h3><p class="mt-2 text-lg text-stone-600">Seleccionar un parque específico para lanzar la primera "Brigada Delphos de Oportunidad". Este piloto se enfocaría en las poblaciones con mayor viabilidad legal (ex-privados de libertad y desempleados) para demostrar la eficacia del modelo.</p></div></div>
+                    <div class="flex items-start space-x-6 fade-in"><div class="flex-shrink-0 w-12 h-12 bg-cyan-600 text-white rounded-full flex items-center justify-center text-2xl font-bold">3</div><div><h3 class="text-2xl font-bold text-stone-900">Elaborar Propuesta de Reforma Legal</h3><p class="mt-2 text-lg text-stone-600">Con los datos del piloto, trabajar con expertos legales y sociales para redactar una propuesta formal de modificación a la Ley de Pensiones Alimentarias, promoviendo el trabajo comunitario supervisado como una alternativa humana y eficiente a la cárcel.</p></div></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-stone-800 text-stone-300">
+        <div class="max-w-7xl mx-auto py-12 px-6 text-center">
+            <h3 class="text-2xl font-bold text-white">Únase a la Revolución</h3>
+            <p class="mt-4 max-w-2xl mx-auto">El Proyecto Delphos es más que una iniciativa de parques. Es una invitación a reconstruir vidas y comunidades desde la base. Contáctenos para ser parte de esta transformación.</p>
+            <div class="mt-8"><a href="#" class="inline-block bg-cyan-600 text-white font-bold py-3 px-8 rounded-full hover:bg-cyan-700 transition-colors">Conviértase en Socio</a></div>
+        </div>
+    </footer>
+
+    <!-- Elemento de Audio (Oculto) -->
+    <!-- IMPORTANTE: Cambia 'audio/tu-archivo.mp3' por la ruta a tu archivo de audio en GitHub -->
+    <audio id="audio-player" src="audio/tu-archivo.mp3"></audio>
+
+    <!-- Botón Flotante para el Audio -->
+    <button id="audio-toggle-button" class="audio-button">
+        <span id="audio-icon">
+            <!-- El ícono se cambiará con JavaScript -->
+        </span>
+    </button>
+    
+    <script src="script.js"></script>
+</body>
+</html>

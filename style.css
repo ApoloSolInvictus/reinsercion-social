@@ -1,0 +1,84 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fafaf9; /* stone-50 */
+}
+.section-title {
+    font-weight: 900;
+    font-size: 2.25rem; /* text-4xl */
+    line-height: 2.5rem;
+    color: #1c1917; /* stone-900 */
+}
+.section-subtitle {
+    font-size: 1.125rem; /* text-xl */
+    color: #78716c; /* stone-500 */
+    max-width: 42rem; /* max-w-2xl */
+    margin-left: auto;
+    margin-right: auto;
+}
+.tab {
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+.tab.active {
+    background-color: #0891b2; /* cyan-600 */
+    color: white;
+}
+.tab:not(.active) {
+    background-color: #e7e5e4; /* stone-200 */
+    color: #57534e; /* stone-600 */
+}
+.tab:not(.active):hover {
+    background-color: #d6d3d1; /* stone-300 */
+}
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.chart-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+/* Estilos para el Botón de Audio Flotante */
+.audio-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #0891b2; /* cyan-600 */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.audio-button:hover {
+    background-color: #0e7490; /* cyan-700 */
+    transform: scale(1.1);
+}
+
+.audio-button svg {
+    width: 28px;
+    height: 28px;
+}
